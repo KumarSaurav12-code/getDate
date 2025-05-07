@@ -41,6 +41,18 @@ html {
     /* padding-top: 50px; */
 }
 
+.confirmationNo1 {
+    display: none;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* padding-top: 50px; */
+}
+
 .confirmation h1 {
     font-style: bolder;
     font-size: 50px;
@@ -50,6 +62,14 @@ html {
 }
 
 .confirmationNo h1 {
+    font-style: bolder;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 0px 3px 6px rgb(147, 77, 77);
+    line-height: 90px;
+}
+
+.confirmationNo1 h1 {
     font-style: bolder;
     font-size: 50px;
     font-weight: 700;
@@ -224,6 +244,17 @@ html {
     }
 
     .confirmationNo {
+        display: none;
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .confirmationNo1 {
         display: none;
         width: 100%;
         height: 500px;
