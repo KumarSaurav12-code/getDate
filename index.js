@@ -3,19 +3,16 @@ const yes = document.querySelector("#yes");
 const no = document.querySelector("#no");
 const confirmation = document.querySelector(".confirmation");
 const container = document.querySelector(".container");
-const container1 = document.querySelector(".container1");
 const confirmationNo = document.querySelector(".confirmationNo");
 
 yesAnswerMethod = () => {
     container.style.display = 'none'
-    container1.style.display = 'none'
     confirmationNo.style.display = 'none'
     confirmation.style.display = 'block'
 }
 
 noAnswerMethod = () => {
     container.style.display = 'none'
-    container1.style.display = 'none'
     confirmationNo.style.display = 'block'
 }
 
